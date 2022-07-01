@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-01T14:35:57 NPT" name="Default suite" finished-at="2022-07-01T14:36:26 NPT" duration-ms="29186">
+  <suite started-at="2022-07-01T15:05:30 NPT" name="Suite_One" finished-at="2022-07-01T15:06:07 NPT" duration-ms="36362">
     <groups>
     </groups>
-    <test started-at="2022-07-01T14:35:57 NPT" name="Default test" finished-at="2022-07-01T14:36:26 NPT" duration-ms="29186">
+    <test started-at="2022-07-01T15:05:30 NPT" name="Test_One" finished-at="2022-07-01T15:06:07 NPT" duration-ms="36362">
       <class name="tests.TS_001_Directory">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.TS_001_Directory@67f639d3]" started-at="2022-07-01T14:35:57 NPT" name="setUpTest" finished-at="2022-07-01T14:36:05 NPT" duration-ms="7994" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.TS_001_Directory@201a4587]" started-at="2022-07-01T15:05:30 NPT" name="setUpTest" finished-at="2022-07-01T15:05:39 NPT" duration-ms="8261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="TC_001_shouldLogin()[pri:0, instance:tests.TS_001_Directory@67f639d3]" started-at="2022-07-01T14:36:05 NPT" name="TC_001_shouldLogin" finished-at="2022-07-01T14:36:14 NPT" duration-ms="9101" status="PASS">
+        <test-method signature="TC_001_shouldLogin()[pri:0, instance:tests.TS_001_Directory@201a4587]" started-at="2022-07-01T15:05:45 NPT" name="TC_001_shouldLogin" finished-at="2022-07-01T15:05:55 NPT" duration-ms="10100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_shouldLogin -->
-        <test-method signature="TC_002_navigateToDirectory()[pri:0, instance:tests.TS_001_Directory@67f639d3]" started-at="2022-07-01T14:36:14 NPT" name="TC_002_navigateToDirectory" finished-at="2022-07-01T14:36:23 NPT" duration-ms="8939" status="PASS">
+        <test-method signature="TC_002_navigateToDirectory()[pri:0, instance:tests.TS_001_Directory@201a4587]" started-at="2022-07-01T15:05:55 NPT" name="TC_002_navigateToDirectory" finished-at="2022-07-01T15:06:04 NPT" duration-ms="8796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_navigateToDirectory -->
-        <test-method signature="TC_003_logOut()[pri:0, instance:tests.TS_001_Directory@67f639d3]" started-at="2022-07-01T14:36:23 NPT" name="TC_003_logOut" finished-at="2022-07-01T14:36:26 NPT" duration-ms="2437" status="PASS">
+        <test-method signature="TC_003_logOut()[pri:0, instance:tests.TS_001_Directory@201a4587]" started-at="2022-07-01T15:06:04 NPT" name="TC_003_logOut" finished-at="2022-07-01T15:06:06 NPT" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003_logOut -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.TS_001_Directory@67f639d3]" started-at="2022-07-01T14:36:26 NPT" name="tearDownTest" finished-at="2022-07-01T14:36:26 NPT" duration-ms="660" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.TS_001_Directory@201a4587]" started-at="2022-07-01T15:06:06 NPT" name="tearDownTest" finished-at="2022-07-01T15:06:07 NPT" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
       </class> <!-- tests.TS_001_Directory -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.TS_002_Admin">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:05:39 NPT" name="setUpTest" finished-at="2022-07-01T15:05:45 NPT" duration-ms="6127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC_001_shouldLogin()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:05:45 NPT" name="TC_001_shouldLogin" finished-at="2022-07-01T15:05:53 NPT" duration-ms="8637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_shouldLogin -->
+        <test-method signature="TC_002_navigateToAdmin()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:05:53 NPT" name="TC_002_navigateToAdmin" finished-at="2022-07-01T15:05:58 NPT" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_navigateToAdmin -->
+        <test-method signature="TC_003_adminTestModule()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:05:58 NPT" name="TC_003_adminTestModule" finished-at="2022-07-01T15:06:02 NPT" duration-ms="3893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_adminTestModule -->
+        <test-method signature="TC_003_logOut()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:06:02 NPT" name="TC_003_logOut" finished-at="2022-07-01T15:06:04 NPT" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_logOut -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.TS_002_Admin@4659191b]" started-at="2022-07-01T15:06:07 NPT" name="tearDownTest" finished-at="2022-07-01T15:06:07 NPT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.TS_002_Admin -->
+    </test> <!-- Test_One -->
+  </suite> <!-- Suite_One -->
 </testng-results>
