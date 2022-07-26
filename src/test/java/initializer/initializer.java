@@ -11,7 +11,8 @@ public class initializer {
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver");
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+//		options.addArguments("--headless");
+//		return new ChromeDriver(options);
 		return new ChromeDriver(options);
 	}
 }
